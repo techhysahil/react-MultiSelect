@@ -1,0 +1,19 @@
+{
+  "name": "react-multiselect",
+  "version": "1.0.0",
+  "description": "React component that allow you to slect multiple options from set of category.",
+  "main": "dist/react-MultiSelect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/techhysahil/react-MultiSelect.git"
+  },
+  "keywords": [
+    "react",
+    "multiselect"
+  ],
+  "author": "Sahil Gupta <https://github.com/techhysahil>",
+  "license": "ISC",
+}

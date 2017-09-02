@@ -1,0 +1,141 @@
+/*
+  Author : sahil Gupta
+  Github : https://github.com/techhysahil
+  FileName : ReactMultiSelect.scss
+  Creation Date : 28th Aug, 2k17
+*/
+.align-center, .react-multiSelect-wrapper .header .item-selected-counter div, .react-multiSelect-wrapper .header .right-icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hide {
+  display: none !important;
+}
+
+.react-multiSelect-wrapper {
+  display: inline-block;  
+  position: relative;
+  font-family: "Source Sans Pro";
+}
+.react-multiSelect-wrapper.disabled {
+  cursor: text;
+  opacity: 0.5;
+}
+.react-multiSelect-wrapper .header {
+  display: inline-block;
+  border: 1px solid #D2CBCB;
+  border-radius: 2px;
+  background-color: #ffffff;
+}
+.react-multiSelect-wrapper .header .left-icon {
+  display: inline-block;
+  color: #575F7D;
+  padding: 6px 0px 6px 6px;
+}
+.react-multiSelect-wrapper .header .item-selected-counter {
+  display: inline-block;
+  position: relative;
+  background-color: #58B886;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  margin: 0px 6px;
+  vertical-align: middle;
+  padding: 6px 0px 6px 0px;
+  box-sizing: border-box;
+}
+.react-multiSelect-wrapper .header .category-name {
+  display: inline-block;
+  margin-right: 7px;
+  padding: 6px 0px 6px 0px;
+}
+.react-multiSelect-wrapper .header .right-icon {
+  display: inline-block;
+  color: #575f7d;
+  border-left: 1px solid #e1e6e9;
+  padding: 6px 6px 6px 0;
+  cursor: pointer;
+  position: relative;
+  width: 25px;
+  height: 32px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.react-multiSelect-wrapper .dropdown-body {
+  display: inline-block;
+  position: absolute;
+  top: 115%;
+  left: 0px;
+  background: #fff;
+  border: 1px solid #E1E6E9;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.07);
+  z-index: 10;
+  width: 220px;
+}
+.react-multiSelect-wrapper .dropdown-body .input-wrapper {
+  border-bottom: 1px solid #DFE4E7;
+  position: relative;
+}
+.react-multiSelect-wrapper .dropdown-body .input-wrapper input {
+  padding: 4px 15px;
+  color: #80859B;
+  height: 30px;
+  font-size: 12px;
+  width: 100%;
+  border: 0px;
+  box-sizing: border-box;
+}
+.react-multiSelect-wrapper .dropdown-body .input-wrapper input:focus {
+  outline: 0px;
+}
+.react-multiSelect-wrapper .dropdown-body .input-wrapper .search-icon {
+  position: absolute;
+  right: 4px;
+  color: #9fa9af;
+  top: 5px;
+  font-size: 24px;
+}
+.react-multiSelect-wrapper .dropdown-body .list-wrapper {
+  max-height: 200px;
+  overflow: auto;
+  user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+.react-multiSelect-wrapper .dropdown-body .list-wrapper .list-item {
+  padding: 4px 10px;
+  border-bottom: 1px solid #E1E6E9;
+  cursor: pointer;
+}
+.react-multiSelect-wrapper .dropdown-body .list-wrapper .list-item.disabled {
+  opacity: .5;
+  cursor: text;
+}
+.react-multiSelect-wrapper .dropdown-body .list-wrapper .list-item:hover {
+  background-color: #eaecf1;
+}
+.react-multiSelect-wrapper .checkbox-wrapper {
+  display: inline-block;
+  font-size: 20px;
+}
+.react-multiSelect-wrapper .checkbox-wrapper i.icon.icon_checkbox-chcked {
+  color: #58B886;
+}
+.react-multiSelect-wrapper .checkbox-wrapper i.icon.icon_checkbox-uncheck {
+  color: #E1E6E9;
+}
+.react-multiSelect-wrapper .item-txt {
+  margin-left: 10px;
+  display: inline-block;
+  color: #575F7D;
+  font-size: 12px;
+}
+.react-multiSelect-wrapper .no-result {
+  color: #333;
+  text-align: center;
+  padding: 10px;
+}

@@ -1,0 +1,24 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.example-wrapper .title{
+	padding: 50px;
+	font-size: 40px;
+	background: #F6F6F6;
+	color: #777;
+}
+.example-body {
+    padding: 40px 50px;
+}
+.example-body .heading{
+	font-size: 30px;
+    color: #666;
+    clear: both;
+    margin-top: 20px;
+}
+.example-body p{
+	color: #666;
+    margin-top: 10px;
+    font-size: 16px;
+}
