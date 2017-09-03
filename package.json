@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "React component that allow you to slect multiple options from set of category.",
   "main": "dist/react-MultiSelect.js",
+  "files": [
+    "dist/react-MultiSelect.min.js",
+    "dist/react-MultiSelect.min.css"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,8 +16,21 @@
   },
   "keywords": [
     "react",
-    "multiselect"
+    "multiselect",
+    "react-select",
+    "react-multiselect"
   ],
-  "author": "Sahil Gupta <https://github.com/techhysahil>",
-  "license": "ISC",
+  "author": {
+    "name": "Sahil Gupta",
+    "url": "https://github.com/techhysahil"
+  },
+  "bugs": {
+    "url": "https://github.com/techhysahil/react-MultiSelect/issues"
+  },
+  "peerDependencies": {
+    "react": "^0.14.7 || ^15.0.0-0",
+    "react-dom": "^0.14.7 || ^15.0.0-0"
+  },
+  "homepage": "https://github.com/techhysahil/react-MultiSelect",
+  "license": "ISC"
 }
