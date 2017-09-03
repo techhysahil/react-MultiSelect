@@ -1,5 +1,5 @@
 {
-  "name": "react-multiselect",
+  "name": "react-itra-multi-select",
   "version": "1.0.0",
   "description": "React component that allow you to slect multiple options from set of category.",
   "main": "dist/react-MultiSelect.js",

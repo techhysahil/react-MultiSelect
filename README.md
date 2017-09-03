@@ -11,7 +11,7 @@ Live Demo URL : http://demo.techhysahil.com/react-MultiSelect/
 The easiest way to use React-MultiSelect is to install it using NPM.
 
 ```javascript
-npm install react-multi-select --save
+npm install react-itra-multi-select --save
 ```
 Now import React MultiSelect into your project.
 
